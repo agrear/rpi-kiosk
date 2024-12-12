@@ -1,0 +1,25 @@
+{
+  "name": "rpi-kiosk",
+  "author": { "name": "Malte Wassmann", "email": "agrear@github.com" },
+  "keywords": ["Raspberry Pi", "Kiosk"],
+  "license": "MIT",
+  "description": "Kiosk for displaying a webpage on a Raspberry Pi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-shell": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "vite": "^5.3.1",
+    "typescript": "^5.2.2"
+  }
+}
