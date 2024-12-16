@@ -4,15 +4,13 @@
 use std::env;
 
 #[tauri::command]
-fn get_url() -> String {
-    let args: Vec<String> = env::args().collect();
-
-    String::from(&args[1])
+fn get_args() -> Vec<String> {
+    env::args().collect()
 }
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![get_url])
+        .invoke_handler(tauri::generate_handler![get_args])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
