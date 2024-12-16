@@ -7,10 +7,6 @@
     "distDir": "../dist",
     "withGlobalTauri": true
   },
-  "package": {
-    "productName": "rpi-kiosk",
-    "version": "0.1.0"
-  },
   "tauri": {
     "allowlist": {
       "all": false,
@@ -24,8 +20,6 @@
         "title": "rpi-kiosk",
         "fullscreen": true,
         "alwaysOnTop": true,
-        "width": 800,
-        "height": 600,
         "decorations": false
       }
     ],
@@ -34,7 +28,7 @@
     },
     "bundle": {
       "active": true,
-      "targets": "all",
+      "targets": "deb",
       "identifier": "com.rpi-kiosk.app",
       "icon": [
         "icons/32x32.png",
