@@ -26,19 +26,14 @@ This includes:
 ## Usage
 
 The following command line arguments are supported:
-- `--width [-w]` : Width in pixels or percent
-- `--height [-h]` : Height in pixels or percent
 - `--hide-cursor` : Hide the mouse cursor
 - `--url` : URL of the webpage to display
 
 Note: If you don't pass the `--url` argument the first rest argument is used for the URL.
 
-The `--width` and `--height` arguments let you customize the scaling of the specified webpage. For example if your webpage is too high to fit your screen you can pass `--width 80%` to try and scale it down.
-
 ### Examples
 
 - /usr/bin/rpi-kiosk https://www.example.com/
-- /usr/bin/rpi-kiosk --width 80% https://www.example.com/
 - /usr/bin/rpi-kiosk --url "https://www.example.com/" --hide-cursor
 
 
