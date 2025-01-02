@@ -21,6 +21,7 @@
         "fullscreen": true,
         "alwaysOnTop": true,
         "decorations": false,
+        "resizable": false,
         "userAgent": "rpi-kiosk/1.0.0 (https://github.com/agrear/rpi-kiosk)"
       }
     ],
