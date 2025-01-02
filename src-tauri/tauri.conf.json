@@ -20,7 +20,8 @@
         "title": "rpi-kiosk",
         "fullscreen": true,
         "alwaysOnTop": true,
-        "decorations": false
+        "decorations": false,
+        "userAgent": "rpi-kiosk/1.0.0 (https://github.com/agrear/rpi-kiosk)"
       }
     ],
     "security": {
