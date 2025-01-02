@@ -1,6 +1,6 @@
 [package]
 name = "rpi-kiosk"
-version = "1.0.0"
+version = "1.1.0"
 description = "Kiosk for displaying a webpage on a Raspberry Pi"
 edition = "2021"
 
